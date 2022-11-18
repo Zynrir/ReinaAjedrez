@@ -64,7 +64,7 @@ Para ello te pongo un diagrama de clases para el mismo y poco a poco te iré exp
 2. Crea el **constructor** para esta clase con su visibilidad adecuada, teniendo en cuenta que será una clase de utilidades que sólo contendrá métodos estáticos. Realiza un commit.
 3. Crea el método `mostrarMenu` que mostrará el menú con las opciones de nuestra aplicación: crear reina por defecto, crear reina eligiendo el color, mover y salir. Realiza un commit.
 4. Crea el método `elegirOpcionMenu` que mostrará un mensaje para que elijamos una opción del menú anteriormente creado y nos pedirá que introduzcamos por teclado la opción hasta que ésta sea valida. Devolverá la opción elegida. Realiza un commit.
-5. Crea el método `elegirOpcion` que nos pedirá que elijamos un color mientras éste no sea válido y dependiendo de la opción elegida devolverá un color u otro. Realiza un commit.
+5. Crea el método `elegirColor` que nos pedirá que elijamos un color mientras éste no sea válido y dependiendo de la opción elegida devolverá un color u otro. Realiza un commit.
 6. Crea el método `mostrarMenuDirecciones` que mostrará por consola un menú con las diferentes direcciones que podemos elegir. Realiza un commit.
 7. Crea el método `elegirDireccion` que mostrará un mensaje indicando que elijamos una dirección del menú anteriormente creado y nos pedirá que introduzcamos por teclado la opción hasta que ésta sea valida. Devolverá la dirección elegida. Realiza un commit.
 8. Crea el método `elegirPasos` que mostrará un mensaje indicando que elijamos el número de pasos a mover, nos lo pedirá y devolverá el número de pasos introducidos. Realiza un commit.
