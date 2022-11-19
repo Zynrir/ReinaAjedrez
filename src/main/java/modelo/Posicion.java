@@ -11,8 +11,17 @@ public class Posicion {
 		setFila(fila);
 		setColumna(columna);
 	}
-
-
+	
+	/*
+	 * Constructor copia
+	 */
+	public Posicion(Posicion posicion) {
+		if (posicion == null) {
+			throw new NullPointerException("Campo vacio");
+		}
+		setFila(posicion.getFila());
+		setColumna(posicion.getColumna());
+	}
 
 	public int getFila() {
 		return fila;
