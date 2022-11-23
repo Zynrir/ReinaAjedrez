@@ -1,5 +1,4 @@
 # Tarea Reina Ajedrez
-<<<<<<< HEAD
 ## Profesor: Andrés Rubio del Río
 ## Alumno: José Miguel López Gómez
 
