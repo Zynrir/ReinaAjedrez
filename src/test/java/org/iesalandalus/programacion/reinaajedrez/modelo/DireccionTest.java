@@ -12,6 +12,7 @@ class DireccionTest {
 	@Test
 	void nombresValidosDirecciones() {
 		assertEquals("NORTE", Direccion.NORTE.toString(), NOMBRE_NO_VALIDO);
+<<<<<<< HEAD
         assertEquals("NORESTE", Direccion.NORESTE.toString(), NOMBRE_NO_VALIDO);
         assertEquals("ESTE", Direccion.ESTE.toString(), NOMBRE_NO_VALIDO);
         assertEquals("SURESTE", Direccion.SURESTE.toString(), NOMBRE_NO_VALIDO);
@@ -19,6 +20,15 @@ class DireccionTest {
         assertEquals("SUROESTE", Direccion.SUROESTE.toString(), NOMBRE_NO_VALIDO);
         assertEquals("OESTE", Direccion.OESTE.toString(), NOMBRE_NO_VALIDO);
         assertEquals("NOROESTE", Direccion.NOROESTE.toString(), NOMBRE_NO_VALIDO);
+=======
+		assertEquals("NORESTE", Direccion.NORESTE.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("ESTE", Direccion.ESTE.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("SURESTE", Direccion.SURESTE.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("SUR", Direccion.SUR.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("SUROESTE", Direccion.SUROESTE.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("OESTE", Direccion.OESTE.toString(), NOMBRE_NO_VALIDO);
+		assertEquals("NOROESTE", Direccion.NOROESTE.toString(), NOMBRE_NO_VALIDO);
+>>>>>>> refs/remotes/Ajedrez/master
 	}
 
 }

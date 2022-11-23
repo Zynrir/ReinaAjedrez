@@ -1,5 +1,6 @@
 package org.iesalandalus.programacion.reinaajedrez;
 
+<<<<<<< HEAD
 import javax.naming.OperationNotSupportedException;
 
 import org.iesalandalus.programacion.reinaajedrez.modelo.Reina;
@@ -71,3 +72,11 @@ public class MainApp {
 	
 	
 }
+=======
+public class MainApp {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+>>>>>>> refs/remotes/Ajedrez/master
