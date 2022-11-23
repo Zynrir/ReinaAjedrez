@@ -1,4 +1,4 @@
-package modelo;
+package org.iesalandalus.programacion.reinaajedrez.modelo;
 
 import java.util.Objects;
 
@@ -19,7 +19,7 @@ public class Posicion {
 	 */
 	public Posicion(Posicion posicion) {
 		if (posicion == null) {
-			throw new NullPointerException("Campo vacio");
+			throw new NullPointerException("ERROR: No es posible copiar una posición nula.");
 		}
 		setFila(posicion.getFila());
 		setColumna(posicion.getColumna());
@@ -32,8 +32,8 @@ public class Posicion {
 
 
 	private void setFila(int fila) {
-		if (1< fila || 8> fila) {
-			throw new IllegalArgumentException("Fila incorrecta");
+		if (1> fila || 8< fila) {
+			throw new IllegalArgumentException("ERROR: Fila no válida.");
 		}
 		this.fila = fila;
 		
@@ -48,8 +48,8 @@ public class Posicion {
 
 
 	private void setColumna(char columna) {
-		if ('a'< columna || 'h'> columna) {
-			throw new IllegalArgumentException("Columna incorrecta");
+		if ('a'> columna || 'h'< columna) {
+			throw new IllegalArgumentException("ERROR: Columna no válida.");
 		}
 		this.columna = columna;
 	}
@@ -73,7 +73,7 @@ public class Posicion {
 
 	@Override
 	public String toString() {
-		return "Posicion [fila=" + fila + ", columna=" + columna + "]";
+		return "fila=" + fila + ", columna=" + columna + "";
 	}
 
 	
